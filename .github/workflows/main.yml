@@ -1,7 +1,7 @@
 name: Run my python
 
 on: 
-  push: # do this evey time
+  push: # do this evevy time
 
 jobs: 
   build:
