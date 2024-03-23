@@ -1,16 +1,12 @@
 name: Run my python
-
 on: 
   push: # do this every push
-
 jobs: 
   build:
     name: set up environment
     runs-on: ubuntu-lastest
     steps:
     - uses: action/checkout@v2 # what kind of github action version to use
-    
     - name: Run my python
       run: 
         python3 Test1.py
-    
