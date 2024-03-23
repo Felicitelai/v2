@@ -6,7 +6,7 @@ on:
 jobs: 
   build:
     name: set up environment
-    run-on: ubuntu-lastestst
+    run-on: ubuntu-lastest
     steps:
     - uses: action/checkout@v2 # what kind of github action version to use
   
